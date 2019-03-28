@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'RobotoRegular';
+    font-style: normal;
+    src: url('./Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+.hello {
+    color: red;
+    background: url('./images.jpg');
+    width: 200px;
+    height: 400px;
+    font-family: 'RobotoRegular' !important;
+}
