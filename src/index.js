@@ -1,8 +1,10 @@
 import _ from 'lodash';
 import './style.css';
 // import Img from './images.jpg';
+import Data from './data.xml';
 
 function component() {
+    console.log(Data)
     let element = document.createElement('div');
   
     // Lodash, currently included via a script, is required for this line to work
